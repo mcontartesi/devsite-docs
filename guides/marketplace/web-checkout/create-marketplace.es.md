@@ -39,8 +39,8 @@ Este `AUTHORIZATION_CODE` será utilizado para crear las credenciales, y tiene u
 >
 > Puedes incluir algún parámetro en `redirect_uri` para identificar a qué vendedor corresponde el código de autorización que recibiste, como su _e-mail_, el _ID_ de usuario en tu sistema o cualquier otra referencia útil.  
 >Ejemplo Práctico:  
->-Redirect_uri seteado en la aplicación: https://www.mercadopago.com/mp.php . 
->-Redirect uri para pasar en el link de Oauth: https://www.mercadopago.com/mp.php?user_id=001 . 
+>-Redirect_uri seteado en la aplicación: https://www.mercadopago.com/mp.php .   
+>-Redirect uri para pasar en el link de Oauth: https://www.mercadopago.com/mp.php?user_id=001 .   
 >-Redirect_uri a la hora de asociar al vendedor habiendo obtenido el código de seguridad con el Oauth: https://www.mercadopago.com/mp.php?user_id=001
 
 
@@ -90,7 +90,7 @@ En la respuesta, además del _Access Token_ del vendedor que se ha vinculado, ob
 > Consejo
 >
 > Las credenciales tienen un **tiempo de validez de 6 meses**. 
-> Si no se renuevan las credenciales de los vendedores antes de los 6 meses, **las mismas perderán vigencia y se deberá volver a autorizar al vendedor** . 
+> Si no se renuevan las credenciales de los vendedores antes de los 6 meses, **las mismas perderán vigencia y se deberá volver a autorizar al vendedor** .  
 > Recomendación: Renovar las credenciales a los 5 meses de obtenerlas. 
 
 
